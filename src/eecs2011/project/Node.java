@@ -1,7 +1,5 @@
 package eecs2011.project;
 
-import java.util.Objects;
-
 public class Node {
     private final int id;
     private int time;
@@ -142,6 +140,6 @@ public class Node {
 
     @Override
     public int hashCode() {
-        return Objects.hash(getId(), getTime());
+        return getId();
     }
 }
