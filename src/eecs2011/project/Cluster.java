@@ -52,7 +52,7 @@ public class Cluster {
                 }
             }
         }
-        System.out.println(runtime);
+        System.out.print(runtime);
     }
 
     public void execute_app() {
@@ -121,7 +121,7 @@ public class Cluster {
         for (int i = 0; i < map.length; i++) {
             System.out.println(map[i].getId() + "  " + map[i].getStartTime());
         }
-        System.out.println(runtime);
+        System.out.print(runtime);
     }
 
     public void sort() {
